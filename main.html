@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+                       <!-- Tailwind cdn -->
+                       <script src="https://cdn.tailwindcss.com"></script>
+                       <script>
+                           tailwind.config = {
+                             theme: {
+                               extend: {
+                                 colors: {
+                                   customBG: 'rgb(30, 30, 30)',
+                                 }
+                               }
+                             }
+                           }
+                         </script>
+                   
+                                       <!-- daisyUI  -->
+                       <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+                       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+                   
+                   
+                                       <!-- Google font  -->
+                   
+                       <link rel="preconnect" href="https://fonts.googleapis.com">
+                   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+                   
+                                       <!-- Awesome Font -->
+                   <script src="https://kit.fontawesome.com/04ae949980.js" crossorigin="anonymous"></script>
+                                       <!-- css  -->
+                   <link rel="stylesheet" href="style/style.css"">
+</head>
+<body class="bg-blue-50 min-h-screen ">
+                    <!-- Nav Section  -->
+<section class="max-w-screen-2xl mx-auto  flex items-center justify-between bg-white p-7 rounded-lg shadow-lg">
+    <div class="flex items-center gap-4">
+        <div>
+            <img src="assets/logo.png" alt="">
+        </div>
+        <div>
+            <h1 class="text-2xl">
+                Dev <span class="font-extrabold">Board</span> 
+            </h1>
+        </div>
+    </div>
+    <div  class="bg-blue-600 text-white p-3 rounded-xl text-xl font-bold hover:border-2 border-blue-950">
+        <button id="back-btn" class="btn btn-primary">Back to Desk</button>
+    </div>
+</section>
+
+
+
+
+
+
+
+<script src="script/logic.js"></script>
+<script src="script/second.js"></script>
+</body>
+</html>
