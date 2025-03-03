@@ -233,5 +233,4 @@ document.getElementById('question-section')
     const date = new Date("Wed Mar 05 2025 06:00:00 GMT+0600");
 const options = { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' };
 const formattedDate = date.toLocaleDateString('en-US', options);
-console.log(formattedDate);
 newDate.innerText = formattedDate;
