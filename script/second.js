@@ -8,5 +8,3 @@ document.getElementById('back-btn')
 //     .addEventListener('click', function(){
 
 //     })
-
-taskByBtnID('mobile-btn');

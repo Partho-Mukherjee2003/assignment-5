@@ -5,3 +5,13 @@
     background: linear-gradient(130.70deg, rgb(55, 82, 253) 0.419%,rgb(108, 127, 250) 52.66%,rgb(155, 168, 248) 99.733%);
 }
 
+.new-history{
+    text-align: center;
+    background-color: rgb(244, 247, 255);
+    font-size:x-large;
+    border-radius: 15px;
+    /* margin-top: 10px;
+    margin-bottom: 15px; */
+    padding: 5px;
+    
+}
