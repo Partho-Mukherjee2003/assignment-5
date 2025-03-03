@@ -203,3 +203,14 @@ document.getElementById('question-section')
             p.classList.add('new-history');
             newHistoryDiv.appendChild(p);
         })
+
+
+
+                        // Clear history section 
+                        
+        // document.getElementById('clear-btn')
+        // .addEventListener('click', function(){
+            
+        //     document.getElementById('New-history-div').removeChild();
+            
+        // })
