@@ -1,6 +1,6 @@
 document.getElementById('question-section')
     .addEventListener('click', function(){
-        window.location.href="/main.html"
+        window.location.href="./main.html"
     })
 
 // Card 1 logic
