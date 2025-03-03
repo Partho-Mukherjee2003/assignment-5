@@ -26,11 +26,11 @@ document.getElementById('question-section')
             // card title subsection;
             const title1 = document.getElementById('card-1-title').innerText;
 
-
+            const date = new Date();  
             const newHistoryDiv = document.getElementById('New-history-div');
             const p = document.createElement("p");
             p.innerText =`
-            You completed the task ${title1} at 1:44 PM
+            You completed the task ${title1} at ${date}
             `
             console.log(p);
             p.classList.add('new-history');
@@ -58,6 +58,8 @@ document.getElementById('question-section')
             document.getElementById('btn-dark').setAttribute('disabled',true);
             // add history section;
 
+
+            const date = new Date();  
             // card title subsection;
             const title2 = document.getElementById('card-2-title').innerText;
 
@@ -65,7 +67,7 @@ document.getElementById('question-section')
             const newHistoryDiv = document.getElementById('New-history-div');
             const p = document.createElement("p");
             p.innerText =`
-            You completed the task ${title2} at 1:44 PM
+            You completed the task ${title2} at ${date}
             `
             console.log(p);
             p.classList.add('new-history');
@@ -92,12 +94,14 @@ document.getElementById('question-section')
             document.getElementById('Home-btn').setAttribute("disabled", true);
             // add history section;
 
+
+            const date = new Date();  
             // card title subsection;
             const title3 = document.getElementById('card-3-title').innerText;
             const newHistoryDiv = document.getElementById('New-history-div');
             const p = document.createElement("p");
             p.innerText =`
-            You completed the task ${title3} at 1:44 PM
+            You completed the task ${title3} at ${date}
             `
             console.log(p);
             p.classList.add('new-history');
@@ -124,11 +128,11 @@ document.getElementById('question-section')
             // card title subsection;
             const title4 = document.getElementById('card-4-title').innerText;
 
-
+            const date = new Date(); 
             const newHistoryDiv = document.getElementById('New-history-div');
             const p = document.createElement("p");
             p.innerText =`
-            You completed the task ${title4} at 1:44 PM
+            You completed the task ${title4} at  ${date}
             `
             console.log(p);
             p.classList.add('new-history');
@@ -157,11 +161,11 @@ document.getElementById('question-section')
             // card title subsection;
             const title5 = document.getElementById('card-5-title').innerText;
 
-
+            const date = new Date(); 
             const newHistoryDiv = document.getElementById('New-history-div');
             const p = document.createElement("p");
             p.innerText =`
-            You completed the task ${title5} at 1:44 PM
+            You completed the task ${title5} at ${date}
             `
             console.log(p);
             p.classList.add('new-history');
@@ -199,11 +203,11 @@ document.getElementById('question-section')
             // card title subsection;
             const title6 = document.getElementById('card-6-title').innerText;
 
-
+            const date = new Date();
             const newHistoryDiv = document.getElementById('New-history-div');
             const p = document.createElement("p");
             p.innerText =`
-            You completed the task ${title6} at 1:44 PM
+            You completed the task ${title6} at ${date}
             `
             console.log(p);
             p.classList.add('new-history');
@@ -223,3 +227,11 @@ document.getElementById('question-section')
 
 
         
+
+    
+    const newDate = document.getElementById('new-date');
+    const date = new Date("Wed Mar 05 2025 06:00:00 GMT+0600");
+const options = { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' };
+const formattedDate = date.toLocaleDateString('en-US', options);
+console.log(formattedDate);
+newDate.innerText = formattedDate;
