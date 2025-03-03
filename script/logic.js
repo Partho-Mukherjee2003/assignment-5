@@ -11,8 +11,8 @@ document.getElementById('question-section')
             alert('Board updated successfully');
             // sub section
             const oldTask = document.getElementById('task-assigned').innerText;
-            const convertedOldtask = parseInt(oldTask); 
-            const newTask = convertedOldtask - 1;
+            const convertedOldTask = parseInt(oldTask); 
+            const newTask = convertedOldTask - 1;
             document.getElementById('task-assigned').innerText = newTask;
             // add section
             const oldCheck = document.getElementById('nav-check-box').innerText;
@@ -20,7 +20,7 @@ document.getElementById('question-section')
             const newCheck = convertedOldCheck + 1;
             document.getElementById('nav-check-box').innerText = newCheck;
             // disable section
-            document.getElementById('mobile-btn').setAttribute("disabled", true);
+            document.getElementById('mobile-btn').setAttribute('disabled',true);
             // add history section;
 
             // card title subsection;
@@ -55,7 +55,7 @@ document.getElementById('question-section')
             const newCheck = convertedOldCheck + 1;
             document.getElementById('nav-check-box').innerText = newCheck;
             // disable section
-            document.getElementById('btn-dark').setAttribute("disabled", true);
+            document.getElementById('btn-dark').setAttribute('disabled',true);
             // add history section;
 
             // card title subsection;
@@ -94,8 +94,6 @@ document.getElementById('question-section')
 
             // card title subsection;
             const title3 = document.getElementById('card-3-title').innerText;
-
-
             const newHistoryDiv = document.getElementById('New-history-div');
             const p = document.createElement("p");
             p.innerText =`
@@ -123,7 +121,6 @@ document.getElementById('question-section')
             // disable section
             document.getElementById('Home-btn').setAttribute("disabled", true);
             // add history section;
-
             // card title subsection;
             const title4 = document.getElementById('card-4-title').innerText;
 
@@ -190,6 +187,15 @@ document.getElementById('question-section')
             document.getElementById('job-btn').setAttribute("disabled", true);
             // add history section;
 
+
+            
+
+
+
+
+
+
+
             // card title subsection;
             const title6 = document.getElementById('card-6-title').innerText;
 
@@ -214,3 +220,6 @@ document.getElementById('question-section')
             allHistory.innerHTML='';
             
         })
+
+
+        
