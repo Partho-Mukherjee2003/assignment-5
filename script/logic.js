@@ -207,10 +207,10 @@ document.getElementById('question-section')
 
 
                         // Clear history section 
-                        
-        // document.getElementById('clear-btn')
-        // .addEventListener('click', function(){
+
+        document.getElementById('clear-btn')
+        .addEventListener('click', function(){
+            const allHistory = document.getElementById('New-history-div');
+            allHistory.innerHTML='';
             
-        //     document.getElementById('New-history-div').removeChild();
-            
-        // })
+        })
