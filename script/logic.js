@@ -123,7 +123,7 @@ document.getElementById('question-section')
             const newCheck = convertedOldCheck + 1;
             document.getElementById('nav-check-box').innerText = newCheck;
             // disable section
-            document.getElementById('Home-btn').setAttribute("disabled", true);
+            document.getElementById('emoji-btn').setAttribute("disabled", true);
             // add history section;
             // card title subsection;
             const title4 = document.getElementById('card-4-title').innerText;
